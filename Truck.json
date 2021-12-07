@@ -1,0 +1,143 @@
+{
+    "type": "TRUCK",
+    "is_service": "NORMAL",
+    "order_code": "5343ty45et453",
+    "from_place": {
+        "latitude": 10.76061,
+        "longitude": 106.7861,
+        "address": "412 Nguyen Thi Minh Khai, Quan 3",
+        "ward": "Phường 5",
+        "district": "Quan 3",
+        "city": "Hồ Chí Minh",
+        "place_id": "EisxMyBNYXJrZXQgU3RyZWV0LCBXaWxtaW5ndG9uLCBOQyAyODQwMSwgVVNB",
+        "full_name": "Bùi Dương Thế",
+        "national_number": "0976570931",
+        "country_prefix": "+84",
+        "note":"Ghi chú từ người gửi"
+    },
+    "to_place": [
+        {
+            "latitude": 10.76061,
+            "longitude": 106.7861,
+            "address": "19 Nguyen Dinh Chieu, TP HCM",
+            "ward": "Phường 5",
+            "district": "Quan 3",
+            "city": "Hà Nội",
+            "place_id": "EisxMyBNYXJrZXQgU3RyZWV0LCBXaWxtaW5ndG9uLCBOQyAyODQwMSwgVVNB",
+            "full_name": "Bùi Dương Thế",
+            "national_number": "0976570931",
+            "country_prefix": "+84",
+            "cod": 50000,
+            "note": "Ghi chú cho người nhận",
+            "packages": [
+                {
+                    "sku": "P123456",
+                    "name": "Thông tin hàng hóa",
+                    "quantity": 1,
+                    "price": 300000,
+                    "is_insure": false,
+                    "weight": 1.5,
+                    "volume": 1.5,
+                    "length": 1.5,
+                    "height": 1.5,
+                    "width": 1.5,
+                    "note": "Ghi thông tin hàng hóa"
+                },
+                {
+                    "sku": "P654321",
+                    "name": "Thông tin hàng hóa",
+                    "price": 300000,
+                    "quantity": 1,
+                    "is_insure": false,
+                    "weight": 1.5,
+                    "volume": 1.5,
+                    "length": 1.5,
+                    "height": 1.5,
+                    "width": 1.5,
+                    "note": "Ghi thông tin hàng hóa"
+                }
+            ]
+        },
+        {
+            "latitude": 10.76061,
+            "longitude": 106.7861,
+            "address": "312 Nguyen Van Linh, Quan 7",
+            "ward": "Phường 5",
+            "district": "Quan 3",
+            "city": "Hà Nội",
+            "place_id": "EisxMyBNYXJrZXQgU3RyZWV0LCBXaWxtaW5ndG9uLCBOQyAyODQwMSwgVVNB",
+            "full_name": "Bùi Dương Thế",
+            "national_number": "0976570931",
+            "country_prefix": "+84",
+            "cod": 50000,
+            "note": "Ghi chú cho người nhận",
+            "packages": [
+                {
+                    "sku": "P123456",
+                    "name": "Thông tin hàng hóa",
+                    "quantity": 1,
+                    "price": 300000,
+                    "is_insure": false,
+                    "weight": 1.5,
+                    "volume": 1.5,
+                    "length": 1.5,
+                    "height": 1.5,
+                    "width": 1.5,
+                    "note": "Ghi thông tin hàng hóa"
+                },
+                {
+                    "sku": "P654321",
+                    "name": "Thông tin hàng hóa",
+                    "price": 300000,
+                    "quantity": 1,
+                    "is_insure": false,
+                    "weight": 1.5,
+                    "volume": 1.5,
+                    "length": 1.5,
+                    "height": 1.5,
+                    "width": 1.5,
+                    "note": "Ghi thông tin hàng hóa"
+                }
+            ]
+        }
+    ],
+    "return_place": {
+        "latitude": 10.76061,
+        "lontitude": 106.7861,
+        "address": "412 Nguyen Thi Minh Khai, Quan 3",
+        "ward": "Phường 5",
+        "district": "Quan 3",
+        "city": "Hồ Chí Minh",
+        "place_id": "EisxMyBNYXJrZXQgU3RyZWV0LCBXaWxtaW5ndG9uLCBOQyAyODQwMSwgVVNB",
+        "full_name": "Bùi Dương Thế",
+        "national_number": "0976570931",
+        "country_prefix": "+84",
+        "note":"Ghi chú nơi trả hàng"
+    },
+    "requests": [
+        {
+            "number_of_vehicle": 1,
+            "truck_body_id":1,
+            "is_freezer_body": 0,
+            "capacity_id": 4,
+            "temperature": 25,
+            "note":"Ghi chú yêu cầu xe"
+        },
+        {
+            "number_of_vehicle": 1,
+            "truck_body_id":1,
+            "is_freezer_body": 0,
+            "capacity_id": 5,
+            "temperature": 25,
+            "note":"Ghi chú yêu cầu xe"
+        }
+    ],
+    "payment_method": {
+        "type": "TRANSFER",
+        "payer": "SENDER"
+    },
+    "total_distance": 100,
+    "total_value": 2000000,
+    "is_insurance": false,
+    "note": "Ghi thông tin đơn hàng"
+}
